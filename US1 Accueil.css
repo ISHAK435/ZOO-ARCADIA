@@ -1,0 +1,106 @@
+@media screen and (min-width:80rem)
+{
+
+.container{
+    margin:  1em 2em;
+    column-width: 10em;
+    display: flex;
+}
+    
+}
+.item{
+    flex: 1;
+}
+img,
+picture{
+    max-width: 100%;
+}
+
+html{
+    font-size: 1em;
+}
+body {
+    width: 900px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+
+
+p {
+    padding: 90px;
+    border: 1px solid black;
+}
+
+.p-right {
+    text-align: center;
+}
+h1{
+   background-color: rgb(149,249,167);
+   width: 2000px;
+   height: 80px;
+}
+h2{
+    background-color: rgb(149,249,167);
+    width: 1500px;
+    height: 400px;
+    
+ }
+ 
+.styled-photo {
+    width: 800px;
+    height: 70px; /* Maintains the aspect ratio */
+    border-radius: 70px; /* Rounds the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow effect */
+    margin: 50px;
+  }
+ 
+  
+  h5,h6
+ {
+    background-color: rgb(32,178,59);
+    width: 1200px;
+    height: 80px;
+    border: radius 50px;
+}
+
+ 
+body {
+    width: 900px;
+}
+
+p {
+    padding: 90px;
+    border: 1px solid black;
+}
+h3
+.p-right {
+    text-align: right ;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly; /* ou space-around, center, etc. selon vos besoins */
+}
+.photo {
+    width: 20%; /* Ajustez la largeur selon vos besoins */
+}
+h3{
+    display: flex;
+    justify-content: space-between;
+}
+.text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+.font-semibold {
+    font-weight: 600;
+}
+.uppercase {
+    text-transform: uppercase;
+}
